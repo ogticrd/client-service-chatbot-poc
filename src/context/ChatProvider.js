@@ -13,10 +13,9 @@ export const ChatProvider = ({ children }) => {
   const [userName, setUserName] = useState("");
   const [currentRoom, setCurrentRoom] = useState({
     id: 1,
-    name: "OGTIC",
+    name: "Taína",
     src: "./logo-ogtic.svg",
-    description:
-      "Oficina Gubernamental de Tecnologías de la Información y Comunicación",
+    description: "Agente Virtual - Servicios Gubernamentales",
   });
 
   const value = {
